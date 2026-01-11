@@ -1,0 +1,81 @@
+export const TRANSLATIONS = {
+    EN: {
+        title: "THE UNIFIED LOOP",
+        subtitle: "Protocol: Mapping Persistent Exec Authority (2014-2026)",
+        samenessOn: "Sameness Mode: ON",
+        samenessOff: "Sameness Mode: OFF",
+        persistenceCore: "Persistence Core",
+        subjectAnalysis: "Subject Analysis",
+        chairTrajectory: "Chair Trajectory",
+        activeConnections: "Active Connections",
+        historyEncrypted: "Historical data encrypted or unavailable.",
+        mapLegend: "Map Legend:",
+        clanRecycling: "CLAN RECYCLING",
+        chameleonAlliance: "CHAMELEON ALLIANCE",
+        technocratMask: "TECHNOCRAT MASK",
+        highPersistence: "HIGH PERSISTENCE (S-4/5)",
+        dynasticSuccession: "DYNASTIC SUCCESSION",
+        patronAnchor: "PATRON ANCHOR",
+        regionalHub: "REGIONAL HUB",
+        factionShift: "FACTION SHIFT",
+        shadowLink: "SHADOW LINK",
+        samenessStability: "SAMENESS STABILITY",
+        technocratShield: "TECHNOCRAT SHIELD",
+        persistence: "Persistence",
+        clanHub: "Clan Hub",
+        status: "Status",
+        faction: "Faction",
+        party: "Party",
+        protocol: "Protocol",
+        metadata: {
+            project: "Musical Chairs of Power",
+            era: "Anutin Transition"
+        }
+    },
+    TH: {
+        title: "เครือข่ายอำนาจเบ็ดเสร็จ",
+        subtitle: "โปรโตคอล: การจัดทำแผนผังอำนาจบริหารที่ยั่งยืน (2557-2569)",
+        samenessOn: "โหมดความซ้ำซาก: เปิด",
+        samenessOff: "โหมดความซ้ำซาก: ปิด",
+        persistenceCore: "แกนกลางความยั่งยืน",
+        subjectAnalysis: "การวิเคราะห์เป้าหมาย",
+        chairTrajectory: "เส้นทางเก้าอี้ดนตรี",
+        activeConnections: "การเชื่อมโยงที่มีผล",
+        historyEncrypted: "ข้อมูลประวัติถูกเข้ารหัสหรือไม่สามารถเข้าถึงได้",
+        mapLegend: "คำอธิบายแผนผัง:",
+        clanRecycling: "การรีไซเคิลตระกูลการเมือง",
+        chameleonAlliance: "พันธมิตรเปลี่ยนสี",
+        technocratMask: "หน้ากากเทคโนแครต",
+        highPersistence: "ความยั่งยืนสูง (S-4/5)",
+        dynasticSuccession: "การสืบทอดสายเลือด",
+        patronAnchor: "ผู้สนับสนุนหลัก",
+        regionalHub: "ศูนย์กลางภูมิภาค",
+        factionShift: "การย้ายขั้ว",
+        shadowLink: "การเชื่อมโยงในเงามืด",
+        samenessStability: "เสถียรภาพความซ้ำซาก",
+        technocratShield: "เกราะป้องกันเทคโนแครต",
+        persistence: "ระดับความยั่งยืน",
+        clanHub: "ศูนย์กลางตระกูล",
+        status: "สถานะ",
+        faction: "กลุ่ม/ก๊วน",
+        party: "พรรค",
+        protocol: "โปรโตคอล",
+        metadata: {
+            project: "เก้าอี้ดนตรีแห่งอำนาจ",
+            era: "การเปลี่ยนผ่านสู่ยุคอนุทิน"
+        }
+    }
+};
+
+export const PROTOCOL_MAP = {
+    CHAMELEON_ALLIANCE: { EN: "Chameleon Alliance", TH: "พันธมิตรเปลี่ยนสี" },
+    CLAN_RECYCLING: { EN: "Clan Recycling", TH: "การรีไซเคิลตระกูล" },
+    DYNASTIC_SUCCESSION: { EN: "Dynastic Succession", TH: "การสืบทอดทางสายเลือด" },
+    PATRON_ANCHOR: { EN: "Patron Anchor", TH: "ผู้สนับสนุนหลัก" },
+    TECHNOCRAT_MASK: { EN: "Technocrat Mask", TH: "หน้ากากเทคโนแครต" },
+    SAMENESS_STABILITY: { EN: "Sameness Stability", TH: "เสถียรภาพความซ้ำซาก" },
+    SHADOW_LINK: { EN: "Shadow Link", TH: "การเชื่อมโยงในเงามืด" },
+    REGIONAL_HUB: { EN: "Regional Hub", TH: "ศูนย์กลางภูมิภาค" },
+    FACTION_SHIFT: { EN: "Faction Shift", TH: "การย้ายขั้วการเมือง" },
+    TECHNOCRAT_SHIELD: { EN: "Technocrat Shield", TH: "เกราะป้องกันเทคโนแครต" }
+};
