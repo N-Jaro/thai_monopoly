@@ -9,7 +9,7 @@ import { Database, Network, Map, Activity, ShieldAlert, Languages, Vote } from '
 
 const T = {
   EN: {
-    title: 'THE LOOP',
+    title: 'THAI MONOPOLY',
     timeline: 'TIMELINE',
     network: 'NETWORK',
     indicators: 'FAILURE INDEX',
@@ -19,7 +19,7 @@ const T = {
     footer2: 'Election Awareness Unit - Thailand'
   },
   TH: {
-    title: 'เดอะ ลูป',
+    title: 'หมากรุกอำนาจ',
     timeline: 'ไทม์ไลน์',
     network: 'เครือข่ายเซฟโซน',
     indicators: 'ดัชนีความล้มเหลว',
